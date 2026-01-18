@@ -6,41 +6,41 @@ A beautiful, colorful, and animated SwiftUI-based macOS Habit Tracker applicatio
 ![Platform](https://img.shields.io/badge/platform-macOS%2013.0+-lightgrey.svg)
 ![Swift](https://img.shields.io/badge/swift-5.9+-orange.svg)
 
-## ✨ Features
+## Features
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 - **Progress Charts**: Visualize your habit completion history
 - **Category Distribution**: See which categories you focus on most
 - **Interactive Graphs**: Built with SwiftUI Charts framework
 - **Real-time Statistics**: Track your success rates and streaks
 
-### 🎯 Habit Management
+### Habit Management
 - **Create & Edit Habits**: Define custom habits with colors and categories
 - **Flexible Frequency**: Daily, Weekly, Weekends, or Custom schedules
 - **Quick Completion**: Toggle habit completion with animated feedback
 - **Archive System**: Soft-delete habits without losing data
 - **Restore Functionality**: Unarchive habits anytime
 
-### 🏷️ Category System
+### Category System
 - **Custom Categories**: Create personalized categories
 - **Color Coding**: Visual organization with custom colors
 - **Category Filtering**: View habits by category
 - **Easy Management**: Add and remove categories on the fly
 
-### 🎨 Beautiful UI
+### Beautiful UI
 - **Colorful Cards**: Each habit has its own vibrant color
 - **Smooth Animations**: Engaging transitions and effects
 - **Hover Effects**: Interactive feedback on user actions
 - **Modern Design**: Clean SwiftUI interface
 - **Sidebar Navigation**: Easy access to all features
 
-## 🖥️ System Requirements
+## System Requirements
 
 - macOS 13.0 (Ventura) or later
 - Xcode 14.0 or later (for development)
 - Swift 5.9+
 
-## 🚀 Installation
+## Installation
 
 ### Option 1: Run from Xcode
 
@@ -77,7 +77,7 @@ swift run
 
 If available, download the `.app` from releases and move it to your Applications folder.
 
-## 📖 Usage
+## Usage
 
 ### Creating a Habit
 
@@ -109,7 +109,7 @@ If available, download the `.app` from releases and move it to your Applications
 2. Add new categories with custom names and colors
 3. Delete unused categories (habits will be updated)
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -153,12 +153,12 @@ swift test --verbose
 ```
 
 **Test Coverage:**
-- ✅ Create habits
-- ✅ Read/filter habits
-- ✅ Update habit properties
-- ✅ Delete/archive habits
-- ✅ Toggle completion status
-- ✅ Full CRUD lifecycle
+- Create habits
+- Read/filter habits
+- Update habit properties
+- Delete/archive habits
+- Toggle completion status
+- Full CRUD lifecycle
 
 ### Data Persistence
 
@@ -175,7 +175,7 @@ swift test --verbose
 - **Swift Package Manager**: Dependency & build management
 - **JSON**: Simple file-based persistence
 
-## 🎨 Customization
+## Customization
 
 ### Adding New Frequencies
 
@@ -202,13 +202,13 @@ static let habitColors: [Color] = [
 ]
 ```
 
-## 🐛 Known Issues
+## Known Issues
 
 - Charts require macOS 13.0+ (graceful degradation on older versions)
 - App bundle identifier needs to be configured for distribution
 - Persistence path is user-specific
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how:
 
@@ -225,17 +225,17 @@ Contributions are welcome! Here's how:
 - Keep code readable and documented
 - Ensure all tests pass before submitting
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Built with SwiftUI and love ❤️
+- Built with SwiftUI and love
 - Charts powered by SwiftUI Charts framework
 - Inspired by habit tracking best practices
 
-## 📧 Support
+## Support
 
 For issues, questions, or feature requests:
 - Open an [issue](https://github.com/ajaym-7/HabitTracker/issues)
@@ -243,4 +243,4 @@ For issues, questions, or feature requests:
 
 ---
 
-**Made with ❤️ using SwiftUI**
+
